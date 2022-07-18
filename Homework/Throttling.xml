@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<throttling>
+  <bandwidthDown>20.6</bandwidthDown>
+  <bandwidthUp>10.6</bandwidthUp>
+  <utilisationDown>70</utilisationDown>
+  <utilisationUp>70</utilisationUp>
+  <latency>10000</latency>
+  <reliability>10</reliability>
+  <mtu>576</mtu>
+  <lowQuality>10</lowQuality>
+  <highQuality>20</highQuality>
+  <stability>10</stability>
+  <customPresets/>
+  <hosts class="listAdapter">
+    <list>
+      <throttleHost>
+        <location>
+          <protocol>http</protocol>
+          <host>162.55.220.72</host>
+          <port>5005</port>
+        </location>
+        <enabled>false</enabled>
+      </throttleHost>
+    </list>
+  </hosts>
+  <selectedHosts>true</selectedHosts>
+</throttling>
